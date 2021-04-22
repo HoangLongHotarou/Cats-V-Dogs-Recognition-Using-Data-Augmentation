@@ -1,0 +1,9 @@
+open anaconda
+cd source: 
+..\install Enviroment tensorflow for Anaconda
+enter:
+conda env create -v -f tensorflow-gpu.yml
+activate:
+conda activate tensorflow
+
+from: https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-jan-2020.ipynb
